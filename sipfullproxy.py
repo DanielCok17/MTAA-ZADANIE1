@@ -264,7 +264,7 @@ class UDPHandler(socketserver .BaseRequestHandler):
         logging.debug("Expires= %d" % expires)
         registrar[fromm]=[contact,self.socket,self.client_address,validity]
         self.debugRegister()
-        self.sendResponse("200 0K")
+        self.sendResponse("200 v poriadku")
         
     def processInvite(self):
         logging.debug("-----------------")
