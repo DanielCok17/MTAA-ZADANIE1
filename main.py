@@ -13,8 +13,8 @@ myDateString = "%a, %d %b %Y %H:%M:%S "
 myRecordRoute = "Record-Route: <sip:%s:%d;lr>"
 myTopovia = "Via: SIP/2.0/UDP %s:%d"
 myLogFormat = '%(asctime)s:%(levelname)s:%(message)s'
-myHostName = ""
-myIpAddress = ""
+myhostname = ""
+myipaddress = ""
 
 def set_host_name():
     return socket.gethostname() 
@@ -29,18 +29,18 @@ def set_localtime():
     return sipfullproxy.time.localtime()    
 
 def main():
-    myHostName = set_host_name()
-    myIpAddress = set_ipaddress()
+    myhostname = set_host_name()
+    myipaddress = set_ipaddress()
     
     sipfullproxy.logging.basicConfig(format=myLogFormat,filename = myFileName,level=sipfullproxy.logging.INFO,datefmt = myDateFormat)
     sipfullproxy.logging.info(sipfullproxy.time.strftime(myDateString, set_localtime()))
-    sipfullproxy.logging.info(myHostName)
-    sipfullproxy.logging.info(myIpAddress)
+    sipfullproxy.logging.info(myhostname)
+    sipfullproxy.logging.info(myipaddress)
 
-    print_function(myIpAddress)
+    print_function(myipaddress)
     
-    sipfullproxy.recordroute = myRecordRoute % (myIpAddress,myPort)
-    sipfullproxy.topvia = myTopovia % (myIpAddress,myPort)
+    sipfullproxy.recordroute = myRecordRoute % (myipaddress,myPort)
+    sipfullproxy.topvia = myTopovia % (myipaddress,myPort)
     
     myserver = socketserver.UDPServer((myHost, myPort), myUdpHandler)
     myserver.serve_forever()
