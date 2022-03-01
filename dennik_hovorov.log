@@ -14,3 +14,242 @@
 23:36:22:INFO:<<< SIP/2.0 480 Momentálne nedostupný
 23:36:22:INFO:>>> ACK sip:danielXiaomi@192.168.1.14 SIP/2.0
 23:36:22:INFO:destination danielXiaomi@192.168.1.14
+11:39:14:INFO:Tue, 01 Mar 2022 11:39:14 
+11:39:14:INFO:LAPTOP-TVVSMQBI
+11:39:14:INFO:192.168.1.14
+11:39:15:INFO:>>> REGISTER sip:192.168.1.14 SIP/2.0
+11:39:15:INFO:From: skusam@192.168.1.14 - Contact: 192.168.1.16:56238
+11:39:15:INFO:<<< SIP/2.0 200 v poriadku
+11:39:15:INFO:>>> PUBLISH sip:skusam@192.168.1.14 SIP/2.0
+11:39:15:INFO:<<< SIP/2.0 200 0K
+11:39:33:INFO:>>> REGISTER sip:192.168.1.14 SIP/2.0
+11:39:33:INFO:From: danielXiaomi@192.168.1.14 - Contact: 192.168.1.13:41031
+11:39:33:INFO:<<< SIP/2.0 200 v poriadku
+11:39:46:INFO:>>> INVITE sip:danielXiaomi@192.168.1.14 SIP/2.0
+11:39:46:INFO:destination danielXiaomi@192.168.1.14
+11:39:46:INFO:<<< INVITE sip:danielXiaomi@192.168.1.14 SIP/2.0
+11:39:46:INFO:>>> SIP/2.0 100 Trying
+11:39:46:INFO:<<< SIP/2.0 100 Trying
+11:39:46:INFO:>>> SIP/2.0 180 Ringing
+11:39:46:INFO:<<< SIP/2.0 180 Ringing
+11:39:52:INFO:>>> SIP/2.0 200 Ok
+11:39:52:INFO:<<< SIP/2.0 200 Ok
+11:39:53:INFO:>>> SIP/2.0 200 Ok
+11:39:53:INFO:<<< SIP/2.0 200 Ok
+11:39:53:INFO:>>> ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:53:INFO:destination danielXiaomi@192.168.1.14
+11:39:53:INFO:<<< ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:53:INFO:>>> ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:53:INFO:destination danielXiaomi@192.168.1.14
+11:39:53:INFO:<<< ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:55:INFO:>>> INVITE sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:55:INFO:destination danielXiaomi@192.168.1.14
+11:39:55:INFO:<<< INVITE sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:55:INFO:>>> SIP/2.0 100 Trying
+11:39:55:INFO:<<< SIP/2.0 100 Trying
+11:39:55:INFO:>>> SIP/2.0 200 Ok
+11:39:55:INFO:<<< SIP/2.0 200 Ok
+11:39:55:INFO:>>> ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:55:INFO:destination danielXiaomi@192.168.1.14
+11:39:55:INFO:<<< ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:39:58:INFO:>>> INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:39:58:INFO:destination skusam@192.168.1.14
+11:39:58:INFO:<<< INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:39:58:INFO:>>> SIP/2.0 100 Trying
+11:39:58:INFO:<<< SIP/2.0 100 Trying
+11:40:02:INFO:>>> SIP/2.0 200 Ok
+11:40:02:INFO:<<< SIP/2.0 200 Ok
+11:40:03:INFO:>>> SIP/2.0 200 Ok
+11:40:03:INFO:<<< SIP/2.0 200 Ok
+11:40:03:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:03:INFO:destination skusam@192.168.1.14
+11:40:03:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:03:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:03:INFO:destination skusam@192.168.1.14
+11:40:03:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:05:INFO:>>> INVITE sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:40:05:INFO:destination danielXiaomi@192.168.1.14
+11:40:05:INFO:<<< INVITE sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:40:05:INFO:>>> SIP/2.0 100 Trying
+11:40:05:INFO:<<< SIP/2.0 100 Trying
+11:40:05:INFO:>>> SIP/2.0 200 Ok
+11:40:05:INFO:<<< SIP/2.0 200 Ok
+11:40:06:INFO:>>> ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:40:06:INFO:destination danielXiaomi@192.168.1.14
+11:40:06:INFO:<<< ACK sip:danielXiaomi@192.168.1.13:41031;transport=udp SIP/2.0
+11:40:18:INFO:>>> BYE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:18:INFO:destination skusam@192.168.1.14
+11:40:18:INFO:<<< BYE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:19:INFO:>>> SIP/2.0 200 Ok
+11:40:19:INFO:<<< SIP/2.0 200 Ok
+11:40:38:INFO:>>> INVITE sip:skusam@192.168.1.14 SIP/2.0
+11:40:38:INFO:destination skusam@192.168.1.14
+11:40:38:INFO:<<< INVITE sip:skusam@192.168.1.14 SIP/2.0
+11:40:38:INFO:>>> SIP/2.0 100 Trying
+11:40:38:INFO:<<< SIP/2.0 100 Trying
+11:40:39:INFO:>>> SIP/2.0 180 Ringing
+11:40:39:INFO:<<< SIP/2.0 180 Ringing
+11:40:42:INFO:>>> SIP/2.0 200 Ok
+11:40:42:INFO:<<< SIP/2.0 200 Ok
+11:40:42:INFO:>>> SIP/2.0 200 Ok
+11:40:42:INFO:<<< SIP/2.0 200 Ok
+11:40:43:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:43:INFO:destination skusam@192.168.1.14
+11:40:43:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:43:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:43:INFO:destination skusam@192.168.1.14
+11:40:43:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:45:INFO:>>> INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:45:INFO:destination skusam@192.168.1.14
+11:40:45:INFO:<<< INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:45:INFO:>>> SIP/2.0 100 Trying
+11:40:45:INFO:<<< SIP/2.0 100 Trying
+11:40:45:INFO:>>> SIP/2.0 200 Ok
+11:40:45:INFO:<<< SIP/2.0 200 Ok
+11:40:45:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:45:INFO:destination skusam@192.168.1.14
+11:40:45:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:47:INFO:>>> INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:47:INFO:destination skusam@192.168.1.14
+11:40:47:INFO:<<< INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:47:INFO:>>> SIP/2.0 100 Trying
+11:40:47:INFO:<<< SIP/2.0 100 Trying
+11:40:50:INFO:>>> SIP/2.0 200 Ok
+11:40:50:INFO:<<< SIP/2.0 200 Ok
+11:40:50:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:50:INFO:destination skusam@192.168.1.14
+11:40:50:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:52:INFO:>>> INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:52:INFO:destination skusam@192.168.1.14
+11:40:52:INFO:<<< INVITE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:52:INFO:>>> SIP/2.0 100 Trying
+11:40:52:INFO:<<< SIP/2.0 100 Trying
+11:40:52:INFO:>>> SIP/2.0 200 Ok
+11:40:52:INFO:<<< SIP/2.0 200 Ok
+11:40:52:INFO:>>> ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:40:52:INFO:destination skusam@192.168.1.14
+11:40:52:INFO:<<< ACK sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:41:23:INFO:>>> BYE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:41:23:INFO:destination skusam@192.168.1.14
+11:41:23:INFO:<<< BYE sip:skusam@192.168.1.16:56238;transport=udp SIP/2.0
+11:41:23:INFO:>>> SIP/2.0 200 Ok
+11:41:23:INFO:<<< SIP/2.0 200 Ok
+11:44:56:INFO:Tue, 01 Mar 2022 11:44:56 
+11:44:56:INFO:LAPTOP-TVVSMQBI
+11:44:56:INFO:192.168.1.14
+11:44:57:INFO:>>> REGISTER sip:192.168.1.14 SIP/2.0
+11:44:57:INFO:From: skusam@192.168.1.14 - Contact: 192.168.1.16:60372
+11:44:57:INFO:<<< SIP/2.0 200 v poriadku
+11:44:58:INFO:>>> PUBLISH sip:skusam@192.168.1.14 SIP/2.0
+11:44:58:INFO:<<< SIP/2.0 200 0K
+11:44:59:INFO:>>> REGISTER sip:192.168.1.14 SIP/2.0
+11:44:59:INFO:From: sestra@192.168.1.14 - Contact: 192.168.1.18:37920
+11:44:59:INFO:<<< SIP/2.0 200 v poriadku
+11:45:15:INFO:>>> REGISTER sip:192.168.1.14 SIP/2.0
+11:45:15:INFO:From: danielXiaomi@192.168.1.14 - Contact: 192.168.1.13:40723
+11:45:15:INFO:<<< SIP/2.0 200 v poriadku
+11:46:06:INFO:>>> INVITE sip:sestra@192.168.1.14 SIP/2.0
+11:46:06:INFO:destination sestra@192.168.1.14
+11:46:06:INFO:<<< INVITE sip:sestra@192.168.1.14 SIP/2.0
+11:46:06:INFO:>>> SIP/2.0 100 Trying
+11:46:06:INFO:<<< SIP/2.0 100 Trying
+11:46:06:INFO:>>> SIP/2.0 180 Ringing
+11:46:06:INFO:<<< SIP/2.0 180 Ringing
+11:46:09:INFO:>>> SIP/2.0 200 Ok
+11:46:09:INFO:<<< SIP/2.0 200 Ok
+11:46:09:INFO:>>> ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:09:INFO:destination sestra@192.168.1.14
+11:46:09:INFO:<<< ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:22:INFO:>>> REFER sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:22:INFO:destination sestra@192.168.1.14
+11:46:22:INFO:<<< REFER sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:22:INFO:>>> SIP/2.0 202 Accepted
+11:46:22:INFO:<<< SIP/2.0 202 Accepted
+11:46:22:INFO:>>> INVITE sip:skusam@192.168.1.16:60372;transport=udp SIP/2.0
+11:46:22:INFO:destination skusam@192.168.1.14
+11:46:22:INFO:<<< INVITE sip:skusam@192.168.1.16:60372;transport=udp SIP/2.0
+11:46:22:INFO:>>> INVITE sip:danielXiaomi@192.168.1.14 SIP/2.0
+11:46:22:INFO:destination danielXiaomi@192.168.1.14
+11:46:22:INFO:<<< INVITE sip:danielXiaomi@192.168.1.14 SIP/2.0
+11:46:22:INFO:>>> SIP/2.0 100 Trying
+11:46:22:INFO:<<< SIP/2.0 100 Trying
+11:46:22:INFO:>>> SIP/2.0 200 Ok
+11:46:22:INFO:<<< SIP/2.0 200 Ok
+11:46:22:INFO:>>> SIP/2.0 100 Trying
+11:46:22:INFO:<<< SIP/2.0 100 Trying
+11:46:22:INFO:>>> ACK sip:skusam@192.168.1.16:60372;transport=udp SIP/2.0
+11:46:22:INFO:destination skusam@192.168.1.14
+11:46:22:INFO:<<< ACK sip:skusam@192.168.1.16:60372;transport=udp SIP/2.0
+11:46:22:INFO:>>> NOTIFY sip:skusam@192.168.1.16:60372;transport=udp SIP/2.0
+11:46:22:INFO:<<< SIP/2.0 200 0K
+11:46:23:INFO:>>> SIP/2.0 180 Ringing
+11:46:23:INFO:<<< SIP/2.0 180 Ringing
+11:46:29:INFO:>>> SIP/2.0 200 Ok
+11:46:29:INFO:<<< SIP/2.0 200 Ok
+11:46:29:INFO:>>> NOTIFY sip:skusam@192.168.1.16:60372;transport=udp SIP/2.0
+11:46:29:INFO:<<< SIP/2.0 200 0K
+11:46:29:INFO:>>> ACK sip:danielXiaomi@192.168.1.13:40723;transport=udp SIP/2.0
+11:46:29:INFO:destination danielXiaomi@192.168.1.14
+11:46:29:INFO:<<< ACK sip:danielXiaomi@192.168.1.13:40723;transport=udp SIP/2.0
+11:46:46:INFO:>>> BYE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:46:INFO:destination sestra@192.168.1.14
+11:46:46:INFO:<<< BYE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:46:INFO:>>> SIP/2.0 200 Ok
+11:46:46:INFO:<<< SIP/2.0 200 Ok
+11:46:52:INFO:>>> BYE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:52:INFO:destination sestra@192.168.1.14
+11:46:52:INFO:<<< BYE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:46:52:INFO:>>> SIP/2.0 200 Ok
+11:46:52:INFO:<<< SIP/2.0 200 Ok
+11:48:29:INFO:>>> INVITE sip:sestra@192.168.1.14 SIP/2.0
+11:48:29:INFO:destination sestra@192.168.1.14
+11:48:29:INFO:<<< INVITE sip:sestra@192.168.1.14 SIP/2.0
+11:48:29:INFO:>>> SIP/2.0 100 Trying
+11:48:29:INFO:<<< SIP/2.0 100 Trying
+11:48:29:INFO:>>> SIP/2.0 180 Ringing
+11:48:29:INFO:<<< SIP/2.0 180 Ringing
+11:48:31:INFO:>>> SIP/2.0 200 Ok
+11:48:31:INFO:<<< SIP/2.0 200 Ok
+11:48:32:INFO:>>> SIP/2.0 200 Ok
+11:48:32:INFO:<<< SIP/2.0 200 Ok
+11:48:32:INFO:>>> ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:32:INFO:destination sestra@192.168.1.14
+11:48:32:INFO:<<< ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:32:INFO:>>> ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:32:INFO:destination sestra@192.168.1.14
+11:48:32:INFO:<<< ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:34:INFO:>>> INVITE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:34:INFO:destination sestra@192.168.1.14
+11:48:34:INFO:<<< INVITE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:34:INFO:>>> SIP/2.0 100 Trying
+11:48:34:INFO:<<< SIP/2.0 100 Trying
+11:48:35:INFO:>>> SIP/2.0 200 Ok
+11:48:35:INFO:<<< SIP/2.0 200 Ok
+11:48:35:INFO:>>> ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:35:INFO:destination sestra@192.168.1.14
+11:48:35:INFO:<<< ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:38:INFO:>>> INVITE sip:danielXiaomi@192.168.1.13:40723;transport=udp SIP/2.0
+11:48:38:INFO:destination danielXiaomi@192.168.1.14
+11:48:38:INFO:<<< INVITE sip:danielXiaomi@192.168.1.13:40723;transport=udp SIP/2.0
+11:48:38:INFO:>>> SIP/2.0 100 Trying
+11:48:38:INFO:<<< SIP/2.0 100 Trying
+11:48:38:INFO:>>> SIP/2.0 200 Ok
+11:48:38:INFO:<<< SIP/2.0 200 Ok
+11:48:38:INFO:>>> ACK sip:danielXiaomi@192.168.1.13:40723;transport=udp SIP/2.0
+11:48:38:INFO:destination danielXiaomi@192.168.1.14
+11:48:38:INFO:<<< ACK sip:danielXiaomi@192.168.1.13:40723;transport=udp SIP/2.0
+11:48:42:INFO:>>> INVITE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:42:INFO:destination sestra@192.168.1.14
+11:48:42:INFO:<<< INVITE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:42:INFO:>>> SIP/2.0 100 Trying
+11:48:42:INFO:<<< SIP/2.0 100 Trying
+11:48:44:INFO:>>> SIP/2.0 200 Ok
+11:48:44:INFO:<<< SIP/2.0 200 Ok
+11:48:44:INFO:>>> ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:48:44:INFO:destination sestra@192.168.1.14
+11:48:44:INFO:<<< ACK sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:49:15:INFO:>>> BYE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:49:15:INFO:destination sestra@192.168.1.14
+11:49:15:INFO:<<< BYE sip:sestra@192.168.1.18:37920;transport=udp SIP/2.0
+11:49:15:INFO:>>> SIP/2.0 200 Ok
+11:49:15:INFO:<<< SIP/2.0 200 Ok
